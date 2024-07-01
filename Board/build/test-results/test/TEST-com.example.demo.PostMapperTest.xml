@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.PostMapperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-30T23:59:10" hostname="DESKTOP-LOTP2J6" time="0.975">
+  <properties/>
+  <testcase name="delete()" classname="com.example.demo.PostMapperTest" time="0.975"/>
+  <system-out><![CDATA[08:59:07.398 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.PostMapperTest]: PostMapperTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+08:59:07.539 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.PostMapperTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-01T08:59:07.934+09:00  INFO 6320 --- [Board] [    Test worker] com.example.demo.PostMapperTest          : Starting PostMapperTest using Java 17.0.2 with PID 6320 (started by work in C:\develop\workspace\Board)
+2024-07-01T08:59:07.937+09:00  INFO 6320 --- [Board] [    Test worker] com.example.demo.PostMapperTest          : No active profile set, falling back to 1 default profile: "default"
+2024-07-01T08:59:09.020+09:00  INFO 6320 --- [Board] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-01T08:59:09.149+09:00  INFO 6320 --- [Board] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4099209b
+2024-07-01T08:59:09.149+09:00  INFO 6320 --- [Board] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-01T08:59:10.321+09:00  INFO 6320 --- [Board] [    Test worker] com.example.demo.PostMapperTest          : Started PostMapperTest in 2.663 seconds (process running for 3.935)
+삭제 이전의 전체 게시글 개수는 : 2개입니다.
+삭제 이후의 전체 게시글 개수는 : 2개입니다.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
